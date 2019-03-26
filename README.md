@@ -11,6 +11,13 @@ This is here to hold all the information I'm learning about web development.
     - extensions
 
 ## Personal Log
+### March 26, 2019
+Whoops, my bad. Finally got around to continuing the bootcamp. Here's what I 
+accomplished today:
+- wrote more notes on boilerplate code and tags from the bootcamp
+- learned some shortcuts in VS code for faster HTML coding and efficiency
+- maintaining a new style rule for myself of 80 characters per line for readability (besides in README.md)
+
 ### February 26, 2019
 I spent some good time actually reading up on HTML. Haven't continued the bootcamp yet,
 but I will probably soon. 
