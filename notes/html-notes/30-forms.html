@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Forms</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Notes from Lesson 30: Forms</h1>
+    
+    <p>
+        For forms, there are three main tags that are going to be covered:
+        <ul>
+            <li>form tag</li>
+            <li>input tag</li>
+            <li>label tag</li>
+        </ul>
+        We will also cover input validation for this. Note that most of these
+        tags won't necessary work until we have a backend to do this.
+    </p>
+
+    <p>
+        The <strong>form</strong> tag is a container that holds the interactive
+        elements (e.g. inputs and buttons). This tag has two important 
+        attributes:
+        <ul>
+            <li><strong>action</strong> - the URL to send form data to</li>
+            <li><strong>method</strong> - the type of HTTP request</li>
+        </ul>
+    </p>
+    
+    <p>
+        The <strong>input</strong> tag creates the interactive controls, which 
+        is determined by the type of input. There's around 30-40 types, but 
+        there are common types that are used all the time.
+    </p>
+
+    <p>
+        Here's an example of a simple form:
+    </p>
+
+    <form action="/sign-in-url" method="post">
+        <input type="text">
+        <input type="password">
+        <button>Login</button>
+    </form>
+
+    <p>
+        Here are examples of other types of inputs:
+        <ul>
+            <li>text: <input type="text" placeholder="notice this has a placeholder"></li>
+            <li>color: <input type="color"></li>
+            <li>radio: <input type="radio"></li>
+            <li>password: <input type="password"></li>
+        </ul>
+    </p>
+</body>
+</html>
