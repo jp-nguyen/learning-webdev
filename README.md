@@ -11,6 +11,12 @@ This is here to hold all the information I'm learning about web development.
     - extensions
 
 ## Personal Log
+### July 7, 2019
+LOL my bad again. Back in the summer working on this while doing system design too. Here's what I accomplished today:
+- wrote notes on lists, divs and spans, and attributes
+- organized notes about html in one folder
+- renamed notes to indicate which section I was on
+
 ### March 26, 2019
 Whoops, my bad. Finally got around to continuing the bootcamp. Here's what I 
 accomplished today:

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML Attributes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Notes from Lesson 25: HTML Attributes</h1>
+    <p>
+        <strong>Attributes</strong> are a way to add additional information to 
+        a tag. They come in a <em>key-value</em>pair in tags, usually formatted
+        as a ``attribute = string value''. We will cover only some attributes.
+    </p>
+    <h2>Images</h2>
+    <p>
+        These tags usually don't have much stuff. They have an attribute called
+        <em>src</em> that is equal to the url of the image. This can be from 
+        another host or part of the machine. The <strong>img</strong> tag is 
+        a self-closing tag. For instance, this picture of Kirby:
+        <p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Kirby.png">
+        </p>
+        is done with the following text:
+        <p> 
+            <code>
+                &lt;img src="https://upload.wikimedia.org/wikipedia/en/5/5c/Kirby.png"&gt;
+            </code>
+        </p>
+    </p>
+
+    <h2>Links</h2>
+    <p>
+        The <strong>a</strong> tag (which means anchor) has the attribute 
+        <em>href</em> which is set to the url. For instance,
+        <a href="https://google.com">here</a> is a link to Google.
+    </p>
+    <p>
+        Note that the link is using the HTTP protocol. By default, the link goes
+        to the file protocol. An example would be going to
+        <a href="24-divs-and-spans.html">here</a> for the previous notes.
+    </p>
+</body>
+</html>
