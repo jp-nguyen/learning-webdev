@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simple Validations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Notes from Lesson 36: Form Validations</h1>
+    
+    <p>
+        With just plain html, we can't do too complex validations, but we 
+        <em>can</em> do the following:
+        <ul>
+            <li><strong>presence validation: </strong>make sure an input is not empty</li>
+            <li><strong>format validation: </strong>make sure an input is
+            matching the required format</li>
+        </ul>
+    </p>
+
+    <p> Here is an example of a form that requires non-empty fields: </p>
+
+    <form>
+        <label>Username: <input type="text" placeholder="username" required></label>
+        <label>Password: <input type="text" placeholder="password" required></label>
+        <input type="submit">
+    </form>
+
+    <p> 
+        Note that the message coming out is <em>dependent</em> on the browser.
+        Here is an example of format validation (which is dependent on type):
+    </p>
+
+    <form>
+        <label>Email: <input type="email" placeholder="email" required></label>
+        <label>Password: <input type="text" placeholder="password" required></label>
+        <input type="submit">
+    </form>
+
+    <p>
+        Here, email must be in a valid format to work!
+    </p>
+</body>
+</html>

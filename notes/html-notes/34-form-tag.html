@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>The Form Tag</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>
+        Notes from Lesson 34: The Form Tag
+    </h1>
+
+    <p>
+        The <strong>form</strong> tag is a container for inputs (which basically
+        makes the whole container a block instead of inline). Note that, as 
+        discussed before, there are two tags:
+        <ul>
+            <li><strong>action</strong> - where the form sends data to</li>
+            <li><strong>method</strong> - what HTTP method (GET/POST)</li>
+        </ul>
+        If action is not defined, it defaults to the same page. If method is not
+        defined, it defaults to a GET request.
+    </p>
+
+    <p>
+        Here is an example of a form with nothing:
+    </p>
+
+    <form>
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="submit">
+    </form>
+
+    <p>
+        Now, here is a form with the action and method defined (i.e. it 
+        redirects over to another website).
+    </p>
+
+    <form action="http://wikipedia.org" method="GET">
+        <input type="text" placeholder="username">
+        <input type="password" placeholder="password">
+        <input type="submit">
+    </form>
+
+    <p>
+        When we submit a form, the data is sent along with this request, and we
+        can actually see the data! This is done by giving the name attribute 
+        on the input. Note that when you submit here, look at the URL:
+    </p>
+
+    <form>
+        <input name="username" type="text" placeholder="username">
+        <input name="password" type="password" placeholder="password">
+        <input type="submit">
+    </form>
+
+    <p>
+        When submitting the form, a query string is appended onto the action!
+    </p>
+</body>
+</html>

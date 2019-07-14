@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Labels</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Notes from Lesson 35: Labels</h1>
+
+    <p>
+        The <strong>label</strong> adds labels to the inputs in the form. This
+        allows for captions. There are two ways to syntactically make a label:
+        <ul>
+            <li>Adding the label with the input nested inside</li>
+            <li>Adding the label with a <em>for</em> attribute, which
+                corresponds with the <em>id</em> attribute of an input tag</li>
+        </ul>
+    </p>
+
+    <p> Here is a form with the first way: </p>
+
+    <form>
+        <label>Username: <input type="text"></label>
+        <label>Password: <input type="password"></label>
+    </form>
+
+    <p> Here is a form with the second way: </p>
+
+    <form>
+        <label for="username">Username:</label>
+        <input id="username" type="text">
+        <label for="password">Password: </label>
+        <input id="password"type="password">
+    </form>
+
+    <p>
+        Both of these things connect the <strong>label</strong> to the data
+        being sent via the <strong>input</strong>.
+    </p>
+</body>
+</html>

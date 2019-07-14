@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dropdowns and Radio Buttons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Notes from Lesson 37: Dropdowns and Radio Buttons</h1>
+
+    <p>
+        We will cover three input tags:
+        <ul>
+            <li>Radio Button</li>
+            <li>Select</li>
+            <li>Text Area</li>
+        </ul>
+    </p>
+
+    <h2> Radio </h2>
+    <p>
+        Here is a radio button, which is similar to a checkbox. The following
+        is a checkbox as well:
+    </p>
+
+    <form>
+        <input type="radio">
+        <input type="checkbox">
+    </form>
+
+    <p>
+        The difference is that <strong>radio</strong> only turns on once, while
+        the checkbox can be clicked and unclicked easily. Here is a better use
+        of radio buttons:
+    </p>
+
+    <form>
+        <label for="dogs">Dogs:</label>
+        <input name="pet" id="dogs" type="radio" value="DOGS">
+        <label for="cats">Cats:</label>
+        <input name="pet" id="cats" type="radio" value="CATS">
+
+        <button>Go!</button>
+    </form>
+
+    <p>
+        For this to work, the <em>name</em> attribute must be set in both of 
+        the radio inputs! They must be the same.
+    </p>
+
+    <p>
+        Note that the value must also be set if you want to maintain the choice.
+    </p>
+
+    <h2> Select/Dropdown </h2>
+
+    <p>
+        The <strong>select</strong> tag
+    </p>
+</body>
+</html>

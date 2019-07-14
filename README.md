@@ -11,6 +11,11 @@ This is here to hold all the information I'm learning about web development.
     - extensions
 
 ## Personal Log
+
+### July 13, 2019
+Did a lot more now. Almost done with HTML (may finish if I don't keep getting distracted).
+- wrote notes on tables, forms, and inputs
+
 ### July 7, 2019
 LOL my bad again. Back in the summer working on this while doing system design too. Here's what I accomplished today:
 - wrote notes on lists, divs and spans, and attributes
